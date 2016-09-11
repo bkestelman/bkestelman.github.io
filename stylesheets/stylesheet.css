@@ -15,12 +15,14 @@ a {
   a:hover {
     text-decoration: underline; }
 
-.nav-ul {
-  display: table;
-  vertical-align: center;
+.nav {
+  text-align: center;
 }
-.nav-li {
-  display: table-cell;
+.nav a {
+  display: inline-block;
+}
+.nav li {
+  display: inline;
 }
 
 .btn {
