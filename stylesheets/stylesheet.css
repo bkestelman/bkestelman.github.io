@@ -17,7 +17,7 @@ a {
 
 .nav-ul {
   display: table;
-  vertical-align: middle;
+  vertical-align: center;
 }
 .nav-li {
   display: table-cell;
