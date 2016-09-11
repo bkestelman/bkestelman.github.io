@@ -16,11 +16,8 @@ a {
     text-decoration: underline; }
 
 .nav-ul {
-  display: table;
-  vertical-align: middle;
-}
-.nav-li {
-  display: table-cell;
+  display: inline-block;
+  display-style-type: none;
 }
 
 .btn {
