@@ -17,6 +17,7 @@ a {
 
 .nav-ul {
   display: table;
+  vertical-align: middle;
 }
 .nav-li {
   display: table-cell;
