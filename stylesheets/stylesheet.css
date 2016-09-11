@@ -14,9 +14,12 @@ a {
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
-    
+
+.nav-ul {
+  display: table;
+}
 .nav-li {
-  display: inline;
+  display: table-cell;
 }
 
 .btn {
