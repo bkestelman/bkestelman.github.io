@@ -25,6 +25,10 @@ a {
   display: inline;
 }
 
+.processing {
+  text-align: center;
+}
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
