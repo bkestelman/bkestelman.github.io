@@ -10,7 +10,7 @@ var Dot = function(x, y) {
 Dot.prototype.draw = function() {
   ctx.fillStyle="#000000";
   ctx.beginPath();
-  ctx.arc(x, y, 10, 0, Math.PI*2);
+  ctx.arc(this.x, this.y, 10, 0, Math.PI*2);
   ctx.fill();
 }
 
