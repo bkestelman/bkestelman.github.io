@@ -1,6 +1,22 @@
 var c = document.getElementById("jscanvas");
 var ctx = c.getContext("2d");
 
-ctx.beginPath();
-ctx.arc(250,250,125,0,2*Math.PI);
-ctx.stroke();
+var N = 2; //number of dots
+
+var Dot = function(x, y) {
+  this.x = x;
+  this.y = y;
+}
+Dot.prototype.draw() {
+  ctx.fillStyle="#000000";
+  ctx.beginPath();
+  ctx.arc(x, y, 10, 0, Math.PI*2);
+  ctx.fill();
+}
+
+var dots = Dot[N];
+
+for(var i = 0; i < N; i++) {
+  dots[i] = new Dot(Math.random()*500, Math.random()*500);
+  dots[i].draw();
+}
