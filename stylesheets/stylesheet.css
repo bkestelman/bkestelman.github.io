@@ -25,6 +25,10 @@ a {
   display: inline;
 }
 
+.DotsAndBoxes {
+  text-align: center;
+}
+
 .processing {
   text-align: center;
 }
