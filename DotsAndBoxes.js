@@ -14,7 +14,7 @@ Dot.prototype.draw = function() {
   ctx.fill();
 }
 
-var dots = Dot[N];
+var dots = {};
 
 for(var i = 0; i < N; i++) {
   dots[i] = new Dot(Math.random()*500, Math.random()*500);
