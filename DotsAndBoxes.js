@@ -1,5 +1,5 @@
 var canvas = document.getElementById("jscanvas");
-var context = c.getContext("2d");
+var context = canvas.getContext("2d");
 
 var N = 2; //number of dots
 
