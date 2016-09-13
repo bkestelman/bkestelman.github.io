@@ -14,7 +14,7 @@ Dot.prototype.draw = function() {
   context.fill();
 }
 Dot.prototype.drawBoxes = function() {
-  context.rect(this.x/2, this.y, this.x, canvas.height);
+  context.rect(0, 0, this.x, canvas.height);
   context.stroke();
 }
 
