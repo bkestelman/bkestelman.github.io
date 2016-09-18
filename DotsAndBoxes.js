@@ -36,8 +36,6 @@ var history = selected;
 
   }
 
-}
-
 $('button').click(function(){
   console.log(getNum());
 })
