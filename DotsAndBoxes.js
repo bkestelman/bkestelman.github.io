@@ -28,3 +28,16 @@ for(var i = 0; i < N; i++) {
 for(var i = 0; i < N; i++) {
   dots[i].drawBoxes();
 }
+
+var selected = num[Math.floor(Math.random() * num.length)];
+var history = selected;
+
+  if(history){
+
+  }
+
+}
+
+$('button').click(function(){
+  console.log(getNum());
+})
