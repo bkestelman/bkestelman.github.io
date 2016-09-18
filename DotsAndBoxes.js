@@ -37,6 +37,8 @@ function getNum(){
   if(history){
 
   }
+  
+  return selected;
 }
 
 $('button').click(function(){
