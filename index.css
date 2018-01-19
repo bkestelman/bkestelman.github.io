@@ -7,11 +7,11 @@ body {
 	background-repeat: no-repeat;
 	background-size: auto 100%;
 	background-position: center center;
-	border: 5px;
-	border-color: red;
+	border: 5px solid red;
+	position: absolute;
+	height: 50%;
 }
 
 .container {
-	border: 5px;
-	border-color: black;
+	border: 5px solid black;
 }
