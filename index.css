@@ -5,3 +5,13 @@
 	background-size: auto 100%;
 	background-position: center center;
 }
+
+#myjumbo {
+	padding: 0px;
+}
+
+#mundo { 
+	height: 100%;
+	opacity: 0.8;
+}
+
