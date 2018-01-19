@@ -8,9 +8,6 @@ body {
 	background-size: auto 100%;
 	background-position: center center;
 	border: 5px solid red;
-	position: absolute;
-	height: 50%;
-	width: 100%;
 }
 
 .container {
